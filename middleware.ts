@@ -8,7 +8,7 @@ const ADMIN_SECRET_CODE = process.env.ADMIN_SECRET_CODE || "om77.it@";
 // Cookie name used to gate access to /admin/login
 const ADMIN_GATE_COOKIE = "admin_gate";
 
-export async function proxy(req: NextRequest) {
+export async function middleware(req: NextRequest) {
   const { pathname, searchParams } = req.nextUrl;
 
   // ── Secret-code redirect ──────────────────────────────────────────────────
