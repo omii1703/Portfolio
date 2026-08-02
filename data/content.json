@@ -1,0 +1,177 @@
+{
+  "hero": {
+    "eyebrow": "GenAI / AI Engineer",
+    "name": "Om Jadhav",
+    "tagline": "I build systems that retrieve, reason, and respond — RAG pipelines, agentic workflows, and production LLM services.",
+    "location": "Pune, Maharashtra ",
+    "resumeUrl": "/Om_Jadhav_Resume.pdf",
+    "email": "omj77.it@gmail.com",
+    "phone": "+91 7058194450",
+    "github": "https://github.com/omii1703",
+    "linkedin": "https://linkedin.com/in/om-jadhav-315b0125a",
+    "nodes": [
+      "RAG",
+      "pgvector",
+      "FastAPI",
+      "LangChain",
+      "Agno",
+      "FAISS",
+      "LLMs",
+      "MCP",
+      "PostgreSQL",
+      "Next.js"
+    ]
+  },
+  "about": {
+    "photoUrl": "/om-photo.jpg",
+    "heading": "From vectors to production",
+    "body": "I'm a B.E. Information Technology graduate (Savitribai Phule Pune University, 2026) with hands-on experience designing, building, and deploying LLM-powered applications, Retrieval-Augmented Generation systems, and embedding-based semantic search. I care about the gap between a working demo and a production-ready service — evaluation workflows, fallback logic, structured logging, and latency budgets that hold up under real usage.",
+    "stats": [
+      {
+        "label": "Retrieval accuracy",
+        "value": "92%"
+      },
+      {
+        "label": "Voice pipeline latency",
+        "value": "<3s"
+      },
+      {
+        "label": "API cost reduction",
+        "value": "30%"
+      },
+      {
+        "label": "Months in production GenAI",
+        "value": "6"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "role": "GenAI / AI Engineer",
+      "company": "Parenthese Pvt. Ltd.",
+      "location": "Pune, Maharashtra",
+      "period": "June 2025 – Nov 2025",
+      "points": [
+        "Built and deployed GenAI applications including LLM-powered assistants and automation workflows",
+        "Engineered semantic search pipelines with pgvector (PostgreSQL) and all-MiniLM-L6-v2 embeddings, implementing hybrid retrieval (BM25 + vector) achieving 92% relevance accuracy",
+        "Developed FastAPI-based backend services to expose GenAI capabilities as scalable REST APIs",
+        "Implemented prompt iteration, testing, and fallback logic to improve response reliability and accuracy",
+        "Added structured logging, error handling, and validation to support production-grade AI workflows"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Enterprise Agentic CNC Automation System",
+      "tools": "FastAPI, MCP Server, Agno, PostgreSQL, Gemini LLM",
+      "date": "Sep 2025",
+      "description": "AI-driven orchestration layer automating CNC operational tasks and decision workflows with role-based agent collaboration.",
+      "points": [
+        "Designed an orchestration layer using LangChain to automate CNC operational tasks and decision workflows",
+        "Implemented role-based agent collaboration for data retrieval, reasoning, and command execution",
+        "Integrated Gemini LLM for contextual decision-making and explainable, safe agent operations",
+        "Deployed modular backend via FastAPI and PostgreSQL for scalable, autonomous workflows"
+      ],
+      "link": "https://github.com/omii1703/CNC-Quality-Assistant"
+    },
+    {
+      "title": "Mental Health AI Agent",
+      "tools": "Next.js, FastAPI, Gemini LLM, RAG, Sentence-Transformers, PostgreSQL, gTTS",
+      "date": "Nov 2025",
+      "description": "Empathetic AI therapist with RAG over DSM-5/CBT corpora, a sub-3s voice pipeline, and privacy-first design.",
+      "points": [
+        "RAG over DSM-5/CBT corpora with contextual session memory (PostgreSQL) and multi-turn conversation management",
+        "Voice pipeline (Whisper STT → Gemini reasoning → gTTS) with <3s end-to-end latency",
+        "FAISS semantic caching reducing API costs by 30%",
+        "Secure JWT/OAuth2 auth, encrypted journaling, and PII redaction pipelines"
+      ],
+      "link": "https://github.com/omii1703"
+    },
+    {
+      "title": "Disease Outbreak & Vaccination WhatsApp Chatbot",
+      "tools": "FastAPI, Twilio WhatsApp API, PostgreSQL, Agentic AI",
+      "date": "Sep 2025",
+      "description": "AI-powered WhatsApp chatbot broadcasting regional disease alerts and vaccination updates with two-way booking.",
+      "points": [
+        "Built an AI-powered WhatsApp chatbot for broadcasting disease alerts and vaccination updates by region",
+        "Integrated Twilio WhatsApp API for two-way communication, enabling appointment bookings through chat",
+        "Implemented a dynamic step-based workflow with a FastAPI backend for data collection and automation"
+      ],
+      "link": "https://github.com/omii1703"
+    }
+  ],
+  "skills": {
+    "groups": [
+      {
+        "category": "Programming",
+        "items": [
+          "Python",
+          "JavaScript",
+          "TypeScript",
+          "Next.js",
+          "Node.js"
+        ]
+      },
+      {
+        "category": "RAG & Vector Systems",
+        "items": [
+          "RAG pipeline architecture",
+          "pgvector",
+          "FAISS",
+          "Sentence-Transformers",
+          "Chunking strategies"
+        ]
+      },
+      {
+        "category": "Agentic AI & LLMs",
+        "items": [
+          "LangChain",
+          "Agno",
+          "LangGraph",
+          "MCP",
+          "ReAct",
+          "Function Calling"
+        ]
+      },
+      {
+        "category": "Backend & Data",
+        "items": [
+          "REST APIs",
+          "Microservices",
+          "PostgreSQL",
+          "MySQL",
+          "SQL"
+        ]
+      },
+      {
+        "category": "Engineering Practices",
+        "items": [
+          "Structured logging",
+          "Error handling",
+          "API testing & debugging",
+          "Git"
+        ]
+      },
+      {
+        "category": "Cloud & Deployment",
+        "items": [
+          "AWS",
+          "Docker"
+        ]
+      }
+    ]
+  },
+  "achievements": [
+    "NVIDIA Certification  - Building RAG Agents with LLMs (2025)",
+    "Anthropic MCP Advanced Topics Certification - Model Context Protocol & LLM Orchestration (2025)",
+    "Altire Data Science Master Internship - Applied AI & Machine Learning projects (2025)"
+  ],
+  "contact": {
+    "heading": "Let's build something",
+    "body": "Open to AI/ML engineering roles, GenAI product work, and interesting collaborations.",
+    "email": "omj77.it@gmail.com",
+    "phone": "+91 7058194450",
+    "github": "https://github.com/omii1703",
+    "linkedin": "https://linkedin.com/in/om-jadhav-315b0125a"
+  }
+}
